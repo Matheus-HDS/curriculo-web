@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Currículo web de Matheus Henrique da Silva, estudante de Ciência da Computação.">
+    <title>Currículo | Matheus Henrique da Silva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho e navegação principal -->
+    <header>
+        <nav class="menu" aria-label="Menu principal">
+            <a href="#inicio">Início</a>
+            <a href="#objetivo">Objetivo</a>
+            <a href="#formacao">Formação</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#qualificacoes">Qualificações</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Apresentação -->
+        <section id="inicio" class="hero">
+            <div class="hero-texto">
+                <p class="destaque">Currículo Web</p>
+                <h1 id="saudacao">Matheus Henrique da Silva</h1>
+
+                <p class="subtitulo">
+                    Estudante de Ciência da Computação na UNOESC e interessado em oportunidades
+                    na área de Tecnologia da Informação.
+                </p>
+
+                <div class="dados-resumo" aria-label="Resumo profissional">
+                    <span>Ciência da Computação</span>
+                    <span>6º período</span>
+                    <span>Graduação noturna</span>
+                </div>
+
+                <div class="botoes">
+                    <button id="btn-boas-vindas" type="button">Boas-vindas</button>
+                    <button id="btn-tema" type="button" aria-pressed="false">Mudar tema</button>
+                </div>
+            </div>
+
+            <figure class="foto-perfil">
+                <img src="media/perfil.svg" alt="Foto de perfil de Matheus Henrique da Silva">
+                <figcaption>Matheus Henrique da Silva</figcaption>
+            </figure>
+        </section>
+
+        <!-- Objetivo profissional -->
+        <section id="objetivo" class="secao">
+            <h2>Objetivo Profissional</h2>
+            <article>
+                <p>
+                    Busco uma oportunidade na área de Tecnologia da Informação para aplicar e
+                    desenvolver habilidades práticas, contribuir com a empresa e continuar
+                    evoluindo profissionalmente enquanto curso Ciência da Computação no período noturno.
+                </p>
+            </article>
+        </section>
+
+        <!-- Formação -->
+        <section id="formacao" class="secao">
+            <h2>Formação</h2>
+
+            <div class="cards cards-dois">
+                <article class="card">
+                    <h3>Ciência da Computação</h3>
+                    <p><strong>UNOESC</strong></p>
+                    <p>Ensino Superior - período noturno</p>
+                    <p>Início: 2024</p>
+                    <p>Conclusão prevista: 2027</p>
+                    <p>6º período em andamento</p>
+                </article>
+
+                <article class="card">
+                    <h3>Técnico Agropecuário Integrado</h3>
+                    <p><strong>IFSC</strong></p>
+                    <p>Curso em período integral</p>
+                    <p>2021 - 2023</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Experiência profissional -->
+        <section id="experiencia" class="secao">
+            <h2>Experiência Profissional</h2>
+
+            <article class="experiencia-item">
+                <div>
+                    <h3>Recepcionista - Caixa Econômica Federal</h3>
+                    <p><strong>Orbenk - CLT</strong></p>
+                </div>
+                <p class="periodo">Dezembro/2023 - atualmente</p>
+            </article>
+
+            <p class="texto-apoio">
+                Experiência com atendimento ao público e suporte ao usuário.
+            </p>
+        </section>
+
+        <!-- Qualificações e conhecimentos -->
+        <section id="qualificacoes" class="secao">
+            <div class="titulo-com-botao">
+                <h2>Qualificações e Conhecimentos</h2>
+                <button id="btn-qualificacoes" type="button" aria-expanded="true">
+                    Esconder conteúdo
+                </button>
+            </div>
+
+            <div id="conteudo-qualificacoes">
+                <div class="cards">
+                    <article class="card">
+                        <h3>Programação e Banco de Dados</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                            <li>PostgreSQL</li>
+                            <li>Programação orientada a objetos</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Ferramentas e Tecnologia</h3>
+                        <ul>
+                            <li>Git e GitHub</li>
+                            <li>Desenvolvimento de sistemas</li>
+                            <li>Banco de dados</li>
+                            <li>Montagem e manutenção de computadores</li>
+                            <li>Hardware</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Outros Conhecimentos</h3>
+                        <ul>
+                            <li>Microsoft Office - nível intermediário</li>
+                            <li>Google Workspace - nível intermediário</li>
+                            <li>Atendimento ao público</li>
+                            <li>Suporte ao usuário</li>
+                            <li>Inglês básico</li>
+                            <li>Espanhol básico</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <article class="cursos">
+                    <h3>Cursos Complementares</h3>
+                    <ul>
+                        <li>Formação de Desenvolvedores para TI - UNOESC - 600 horas</li>
+                        <li>Montagem e Manutenção de Hardware - Jumper - 120 horas</li>
+                        <li>Informática Básica ao Avançado - Jumper - 120 horas</li>
+                        <li>Auxiliar Administrativo com Secretariado - Jumper - 120 horas</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contato e interação em JavaScript -->
+        <section id="contato" class="secao contato">
+            <h2>Contato e Interação</h2>
+
+            <article class="contato-dados">
+                <p><strong>E-mail:</strong> matheus.h.silva2705@gmail.com</p>
+                <p><strong>Telefone:</strong> (49) 9 8436-3375</p>
+                <p>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/Matheus-HDS" target="_blank" rel="noopener noreferrer">
+                        github.com/Matheus-HDS
+                    </a>
+                </p>
+            </article>
+
+            <form id="form-nome">
+                <label for="nome">Digite seu nome para receber uma saudação:</label>
+                <div class="linha-formulario">
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Digite seu nome"
+                        autocomplete="name"
+                        required
+                    >
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+
+            <p id="mensagem-usuario" aria-live="polite"></p>
+            <p id="contador"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="ano"></span> Matheus Henrique da Silva - Unidade I Webapps.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
